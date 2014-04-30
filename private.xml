@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<root>
+    <list>
+	<item>
+		<name>inker's key map: []</name>
+		<identifier>private.inkerbracket</identifier>
+		<autogen>--KeyToKey-- KeyCode::JIS_ATMARK, KeyCode::JIS_BRACKET_LEFT</autogen>
+		<autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT, KeyCode::JIS_BRACKET_RIGHT</autogen>
+	</item>
+	<item>
+		<name>inker's key map: EnSu</name>
+		<identifier>private.inkerensu</identifier>
+		<autogen>--KeyToKey-- KeyCode::JIS_EISUU, KeyCode::COMMAND_L</autogen>
+	</item>
+	<item>
+		<name>inker's key map: JIS_semiclone</name>
+		<identifier>private.inkersemiclone</identifier>
+		<autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, KeyCode::JIS_COLON</autogen>
+	</item>
+	<item>
+		<name>inker's key map: JIS_QUOTE</name>
+		<identifier>private.inkerquote</identifier>
+		<autogen>--KeyToKey-- KeyCode::JIS_COLON, ModifierFlag::SHIFT_L, KeyCode::KEY_2, ModifierFlag::SHIFT_L</autogen>
+		<autogen>--KeyToKey-- KeyCode::JIS_COLON, KeyCode::KEY_7, ModifierFlag::SHIFT_L</autogen>
+	</item>
+	<item>
+		<name>inker's key map: SHIFT_KEY2</name>
+		<identifier>private.inkershiftkey2</identifier>
+		<autogen>--KeyToKey-- KeyCode::KEY_2, ModifierFlag::SHIFT_L, KeyCode::JIS_ATMARK</autogen>
+	</item>
+	<item>
+		<name>inker's key map: SHIFT_KEY6</name>
+		<identifier>private.inkershiftkey6</identifier>
+		<autogen>--KeyToKey-- KeyCode::KEY_6, ModifierFlag::SHIFT_L, KeyCode::JIS_HAT</autogen>
+	</item>
+	<item>
+		<name>inker's key map: SHIFT_KEY7</name>
+		<identifier>private.inkershiftkey7</identifier>
+		<autogen>--KeyToKey-- KeyCode::KEY_7, ModifierFlag::SHIFT_L, KeyCode::KEY_6, ModifierFlag::SHIFT_L</autogen>
+	</item>
+	<item>
+		<name>inker's key map: SHIFT_KEY8</name>
+		<identifier>private.inkershiftkey8</identifier>
+		<autogen>--KeyToKey-- KeyCode::KEY_8, ModifierFlag::SHIFT_L, KeyCode::JIS_COLON, ModifierFlag::SHIFT_L</autogen>
+	</item>
+	<item>
+		<name>inker's key map: SHIFT_KEY9</name>
+		<identifier>private.inkershiftkey9</identifier>
+		<autogen>--KeyToKey-- KeyCode::KEY_9, ModifierFlag::SHIFT_L, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen>
+	</item>
+	<item>
+		<name>inker's key map: SHIFT_KEY0</name>
+		<identifier>private.inkershiftkey0</identifier>
+		<autogen>--KeyToKey-- KeyCode::KEY_0, ModifierFlag::SHIFT_L, KeyCode::KEY_9, ModifierFlag::SHIFT_L</autogen>
+	</item>
+	<item>
+		<name>inker's key map: SHIFT_MINUS</name>
+		<identifier>private.inkershiftminus</identifier>
+		<autogen>--KeyToKey-- KeyCode::MINUS, ModifierFlag::SHIFT_L, KeyCode::JIS_UNDERSCORE</autogen>
+	</item>
+	<item>
+		<name>inker's key map: JIS_HAT</name>
+		<identifier>private.inkerjishat</identifier>
+		<autogen>--KeyToKey-- KeyCode::JIS_HAT, ModifierFlag::SHIFT_L, KeyCode::SEMICOLON, ModifierFlag::SHIFT_L</autogen>
+		<autogen>--KeyToKey-- KeyCode::JIS_HAT, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+	</item>
+	<item>
+		<name>inker's key map: ]</name>
+		<identifier>private.inkerbracket2</identifier>
+		<autogen>--KeyToKey-- KeyCode::BRACKET_RIGHT, KeyCode::RETURN</autogen>
+	</item>
+	<item>
+		<name>inker's key map: KANA</name>
+		<identifier>private.inkerkana</identifier>
+		<autogen>--KeyToKey-- KeyCode::JIS_KANA, KeyCode::JIS_HAT, ModifierFlag::SHIFT_L</autogen>
+	</item>
+    </list>
+</root>
